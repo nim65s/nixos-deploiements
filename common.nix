@@ -31,4 +31,9 @@
   };
 
   system.stateVersion = "25.05";
+
+  system.autoUpgrade = {
+    enable = true;
+    flake = "github:nim65s/nixos-deploiements";
+  };
 }
